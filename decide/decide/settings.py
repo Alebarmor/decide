@@ -161,13 +161,23 @@ STATIC_URL = '/static/'
 # number of bits for the key, all auths should use the same number of bits
 KEYBITS = 256
 
-APIS = {}
+BASEURL="https://egc-app-practica7-alebarmor.herokuapp.com"
+
+APIS = {
+    'authentication': BASEURL,
+    'base': BASEURL,
+    'booth': BASEURL,
+    'census': BASEURL,
+    'mixnet': BASEURL,
+    'postproc': BASEURL,
+    'store': BASEURL,
+    'visualizer': BASEURL,
+    'voting': BASEURL,
+}
 
 # Versioning
 ALLOWED_VERSIONS = ['v1', 'v2']
 DEFAULT_VERSION = 'v1'
-
-BASEURL="https://egc-app-practica-alebarmor.herokuapp.com"
 
 try:
     from local_settings import *
