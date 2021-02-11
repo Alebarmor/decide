@@ -30,7 +30,7 @@ class MixnetCase(APITestCase):
         """
         Tests that 1 + 1 always equals 2.
         """
-        self.assertEqual(1 + 1, 5)
+        self.assertEqual(1 + 1, 2)
 
     def test_create(self):
         data = {
