@@ -20,5 +20,4 @@ deploy:
   provider: heroku
   app: egc-app-practica7-alebarmor
   strategy: git
-  api_key:
-    api_key: $HEROKU_AUTH_TOKEN
+  api_key: $HEROKU_AUTH_TOKEN
