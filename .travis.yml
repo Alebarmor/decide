@@ -20,12 +20,14 @@ deploy:
   - provider: heroku
     app: egc-app-practica7-alebarmor
     strategy: git
-    api_key: $HEROKU_AUTH_TOKEN
+    api_key: 
+      secure: kk7U5DkCh/hRdEDp16L8erLVxyo33jNEWj4uGVHl6Ajf8yGRRBxPXUlQ2F5pO3rnyf5YA9wmx8hxMK5oAYnmvRXyxtg15c05mF89u0BogZUYrudjJegFt/O1c75JwcmIbF6gJfs5swk45pZkmDYanlDvbzvpECe1KWbvlIMjMBqWtJR0vXVF6jH2KuP3vLj48CCJt9MjzeEG4jGfn0kvZDbXMmTSWs5khV1ODpZHDIaH/OBCSgJgcRle3S+LAqNpVZHrk5oPiy1kKLGl1DIoeici1B9cadtYXxjL84OXvwmEB+yX4Eavrostt1TVxUBG1742VsPtd31X0ke05kJQQT0PhCHOp8Uy3Jb6EFZtaJXFhkFYKHNnojsE/JKzFY6TRvTHsYSlM0mvVEDkJf9ugZEDPbRwbOnuwh4YsPajsL1UizmXvFy2C+v6kxNWNcx2KxxJ2kaztR90YaOlsQ2xl7E6Nykd0GBQrgFdGeC1HJznaxiEcT6PdaYBQ1SP8tlDcyFBL32aHtY1zCJszvj+BnvZdElPeHwW0NpYOV6XCPGDVCoM/ohtaoHOdngxVer7SriokmuUlA87NaOHk0r+NMTkldjNCz0vitLjjABXpXd38Gj/pYKM4/oE7HTLHY/WTueBgnOYbaO7Y7ICz4nv3nwF45S3nMOSNhqj+/DFTgU=
     on:
       branch: master
   - provider: heroku
     app: egc-app-practica72-alebarmor
     strategy: git
-    api_key: $HEROKU_AUTH_TOKEN
+    api_key:
+      secure: kk7U5DkCh/hRdEDp16L8erLVxyo33jNEWj4uGVHl6Ajf8yGRRBxPXUlQ2F5pO3rnyf5YA9wmx8hxMK5oAYnmvRXyxtg15c05mF89u0BogZUYrudjJegFt/O1c75JwcmIbF6gJfs5swk45pZkmDYanlDvbzvpECe1KWbvlIMjMBqWtJR0vXVF6jH2KuP3vLj48CCJt9MjzeEG4jGfn0kvZDbXMmTSWs5khV1ODpZHDIaH/OBCSgJgcRle3S+LAqNpVZHrk5oPiy1kKLGl1DIoeici1B9cadtYXxjL84OXvwmEB+yX4Eavrostt1TVxUBG1742VsPtd31X0ke05kJQQT0PhCHOp8Uy3Jb6EFZtaJXFhkFYKHNnojsE/JKzFY6TRvTHsYSlM0mvVEDkJf9ugZEDPbRwbOnuwh4YsPajsL1UizmXvFy2C+v6kxNWNcx2KxxJ2kaztR90YaOlsQ2xl7E6Nykd0GBQrgFdGeC1HJznaxiEcT6PdaYBQ1SP8tlDcyFBL32aHtY1zCJszvj+BnvZdElPeHwW0NpYOV6XCPGDVCoM/ohtaoHOdngxVer7SriokmuUlA87NaOHk0r+NMTkldjNCz0vitLjjABXpXd38Gj/pYKM4/oE7HTLHY/WTueBgnOYbaO7Y7ICz4nv3nwF45S3nMOSNhqj+/DFTgU=
     on:
       branch: practica7
