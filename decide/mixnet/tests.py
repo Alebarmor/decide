@@ -26,6 +26,12 @@ class MixnetCase(APITestCase):
         cipher = [k.encrypt(i) for i in msgs]
         return cipher
 
+    def test_basic_addition(self):
+        """
+        Tests that 1 + 1 always equals 2.
+        """
+        self.assertEqual(1 + 1, 5)
+
     def test_create(self):
         data = {
             "voting": 1,
